@@ -1,29 +1,20 @@
 # dynamicform
 
-## Project setup
+### 安装依赖
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 本地运行
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 功能说明
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 根据配置文件自动生成对应表单
+2. 若表单中有提交按钮，会将生成的动态表单中用户输入的数据推送给使用者(父组件)，以供使用者使用
+3. 若想在动态表单中插入非表单元素，传入具名插槽即可
+4. 本项目基于element-ui开发
